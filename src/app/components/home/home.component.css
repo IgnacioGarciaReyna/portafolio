@@ -1,0 +1,48 @@
+.container {
+  background-color: #1a1b24;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.container > .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.content > header {
+    text-align: right;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+  font-weight: 300;
+}
+
+header > p {
+  font-size: 1.25em;
+  line-height: 1.75em;
+}
+
+.image {
+  border-radius: 100%;
+  display: inline-block;
+  height: 18em;
+  margin-left: 3em;
+  vertical-align: middle;
+  width: 18em;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.image > img {
+  border-radius: 100%;
+  display: block;
+  width: 100%;
+}
