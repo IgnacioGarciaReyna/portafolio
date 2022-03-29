@@ -1,0 +1,9 @@
+.icon{
+    background: #272833;
+    border-radius: 100%;
+    display: inline-block;
+    height: 6em;
+    width: 6em;
+    line-height: 5.65em;
+    margin: 0 0 2em 0;
+}
