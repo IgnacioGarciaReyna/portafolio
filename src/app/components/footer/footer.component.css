@@ -1,0 +1,15 @@
+#footer{
+    background-color: #1a1b24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+}
+
+.social-link{
+    height: 2.5em;
+    line-height: 2.5em;
+}
