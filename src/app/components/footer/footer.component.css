@@ -12,4 +12,12 @@
 .social-link{
     height: 2.5em;
     line-height: 2.5em;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 1.5rem;
+}
+
+.social-icon {
+    height: 40px;
+    width: 40px;
 }
