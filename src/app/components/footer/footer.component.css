@@ -1,8 +1,9 @@
 #footer{
-    background-color: #1a1b24;
+    background-color: #272833;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 18em;
 }
 
 .icons{
