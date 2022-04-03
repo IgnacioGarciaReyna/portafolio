@@ -1,0 +1,13 @@
+.main-section {
+    background-image: url(./../../../assets/img/codellege-captura.jpg);
+  }
+  
+
+.section-content{
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 28em;
+    border-right-width: 0.35em;
+    border-color: #5480f1;
+}

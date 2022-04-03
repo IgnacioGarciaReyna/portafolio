@@ -1,18 +1,12 @@
-section{
-    position: relative;
+.main-section {
+  background-image: url(./../../../assets/img/exterior2.jpg);
 }
 
-.content{
-    height: 100%;
-    top: 0;
-    right: 0;
-    width: 28em;
-    background: rgba(23, 24, 32, 0.95);
-    border: 0 solid;
-    border-left-width: 0.35em;
-    border-color: #5480f1;
-    opacity: 1;
-    position: absolute;
-    vertical-align: baseline;
-    color: rgba(255, 255, 255, 0.75);
+.section-content {
+  height: 100%;
+  top: 0;
+  right: 0;
+  width: 28em;
+  border-left-width: 0.35em;
+  border-color: #e44c65;
 }

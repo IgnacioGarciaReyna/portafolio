@@ -22,6 +22,22 @@ app-header{
   color: #ffffff;
 }
 
+.main-section{
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section-content{
+  background: rgba(23, 24, 32, 0.95);
+  border: 0 solid;
+  opacity: 1;
+  position: absolute;
+  vertical-align: baseline;
+  color: rgba(255, 255, 255, 0.75);
+}
+
 .image{
   width: 100%;
 }
