@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-app-header{
+app-header {
   position: absolute;
   background: transparent;
   top: 0;
@@ -17,27 +17,55 @@ app-header{
   height: 3.5em;
 }
 
-.content{
+.content {
   background-color: #1a1b24;
   color: #ffffff;
 }
 
-.main-section{
+.main-section {
   position: relative;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
 }
 
-.section-content{
+.section-content {
   background: rgba(23, 24, 32, 0.95);
   border: 0 solid;
   opacity: 1;
   position: absolute;
   vertical-align: baseline;
   color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 6em 3em; */
 }
 
-.image{
+.section-header > h2 {
+  font-size: 2em;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 1em 0;
+  vertical-align: baseline;
+}
+
+.section-header > p {
+  font-size: 1.25em;
+  margin-top: -1em;
+  color: #ffffff;
+  position: relative;
+  margin: 0 0 1.5em 0;
+  vertical-align: baseline;
+}
+
+.section-text > p {
+  margin: 0 0 2em 0;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.image {
   width: 100%;
 }
