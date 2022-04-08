@@ -90,6 +90,17 @@ app-header {
   margin: 2.5em 0;
 }
 
-.main-section {
+.goto-next {
+  background-image: url(./assets/img/bottom-arrow.png);
+  background-size: cover;
+  width: 6em;
+  height: 5em;
+  position: absolute;
+  bottom: 2em;
+  left: 47%;
+  z-index: 1;
+}
+
+.shadow-section {
   box-shadow: 0 0.25em 0.5em 0 rgb(0 0 0 / 25%);
 }
