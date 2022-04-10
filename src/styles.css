@@ -74,6 +74,19 @@ app-header {
   width: 100%;
 }
 
+.trasparent-button,
+.goto-next,
+.header-pag-item {
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+}
+
 .trasparent-button {
   background-color: transparent;
   border-radius: 4px;
@@ -88,14 +101,6 @@ app-header {
   padding: 0 2.25em;
   text-decoration: none;
   margin: 2.5em 0;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
 }
 
 .trasparent-button:hover {
@@ -112,6 +117,10 @@ app-header {
   bottom: 2em;
   left: 47%;
   z-index: 1;
+}
+
+.goto-next:hover {
+  background-color: #e44c65;
 }
 
 .shadow-section {

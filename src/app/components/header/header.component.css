@@ -32,8 +32,18 @@
   margin: 0 .7em;
 }
 
-#nav > ul > li > a {
+#button-resume {
   color: #ffffff;
   text-decoration: none;
   font-weight: 300;
+}
+
+.header-pag-item {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.header-pag-item:hover {
+  color: #e44c65;
 }
