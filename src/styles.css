@@ -76,7 +76,8 @@ app-header {
 
 .trasparent-button,
 .goto-next,
-.header-pag-item {
+.header-pag-item,
+#button-resume {
   -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     box-shadow 0.2s ease-in-out;
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
